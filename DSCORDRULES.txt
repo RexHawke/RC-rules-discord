@@ -1,11 +1,49 @@
-embed=discord.Embed(title="Rules", description="Server Rules", color=0xff0000)
-embed.add_field(name=1. Content that is Not Safe For Work is completely forbidden, value=If you have to question your content, do not post it., inline=True)
-embed.add_field(name=2. Be respectful to each member of the server, value=Arguments should not find their home here., inline=True)
-embed.add_field(name=3. Spamming of any kind is not acceptable in any channel, value=Whether that is a text or voice channel. Don't abuse Discord mentions also., inline=True)
-embed.add_field(name=4. No excessive amounts of swearing, value=Let's not have it reach obnoxious levels., inline=True)
-embed.add_field(name=5. No derogatory terms or other inappropriate language, value=There is no place for it here., inline=True)
-embed.add_field(name=6. No offensive Discord avatars or usernames, value=If it's not allowed within ordinary channels, it shouldn't be visible to anyone on the server., inline=True)
-embed.add_field(name=7. No advertising or Discord invites to other unrelated servers, value=This applies to DMs to members of the server., inline=True)
-embed.add_field(name=8. No publishing of personal information, value=This is a very serious offence and can lead to game and Discord permanent bans., inline=True)
-embed.add_field(name=9. Use common sense, value=We cannot account for every possiblity, think before you speak., inline=True)
-await self.bot.say(embed=embed)
+{
+  "content": "this `supports` __a__ **subset** *of* ~~markdown~~ 😃 ```js\nfunction foo(bar) {\n  console.log(bar);\n}\n\nfoo(1);```",
+  "embed": {
+    "title": "Rules",
+    "description": "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
+    "url": "https://discordapp.com",
+    "color": 4653836,
+    "timestamp": "2019-02-07T02:03:57.527Z",
+    "footer": {
+      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
+      "text": "footer text"
+    },
+    "thumbnail": {
+      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "image": {
+      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "author": {
+      "name": "Rules",
+      "url": "https://discordapp.com",
+      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "fields": [
+      {
+        "name": "🤔",
+        "value": "some of these properties have certain limits..."
+      },
+      {
+        "name": "😱",
+        "value": "try exceeding some of them!"
+      },
+      {
+        "name": "🙄",
+        "value": "an informative error should show up, and this view will remain as-is until all issues are fixed"
+      },
+      {
+        "name": "<:thonkang:219069250692841473>",
+        "value": "these last two",
+        "inline": true
+      },
+      {
+        "name": "<:thonkang:219069250692841473>",
+        "value": "are inline fields",
+        "inline": true
+      }
+    ]
+  }
+}
